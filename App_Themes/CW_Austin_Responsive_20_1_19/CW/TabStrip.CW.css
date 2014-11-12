@@ -1,0 +1,24 @@
+.RadTabStrip_CW{color:black;font:12px Cambria, Georgia, serif;;line-height:26px}.RadTabStrip_CW .rtsGhostTab{border-color:#757575;color:black;background-color:#fafafa}.RadTabStripTop_CW .rtsLevel1{background-color:#9e0b0f}.RadTabStrip_CW .rtsUL{background-color:#ffffff}.RadTabStrip_CW .rtsLevel1 .rtsUL{background-color:#9e0b0f}.RadTabStripTop_CW .rtsLevel1 .rtsUL{padding:5px;padding-bottom:0}.RadTabStripBottom_CW .rtsLevel1 .rtsUL{padding:5px;padding-top:0}.RadTabStrip_CW .rtsLI{color:#757575;font:12px/22px Cambria, Georgia, serif}.RadTabStrip_CW .rtsLevel1 .rtsLI{color:#ffffff}.RadTabStripTop_CW .rtsUL .rtsLI,.RadTabStripBottom_CW .rtsUL .rtsLI{padding:0 0 0 1px}.RadTabStripTop_CW .rtsUL .rtsFirst,.RadTabStripBottom_CW .rtsUL .rtsFirst{padding:0 0 0 1px}.RadTabStrip_CW .rtsLink{padding:0 15px;color:#757575;font:14px/22px Cambria, Georgia, serif;}.RadTabStrip_CW .rtsLink:hover{color:#000000}.RadTabStrip_CW .rtsLevel1 .rtsLink{color:#ffffff;border:1px solid #9e0b0f}.RadTabStrip_CW .rtsLevel1 .rtsLink:hover{border-color:#ffffff}.RadTabStripTop_CW .rtsLevel1 .rtsLink{border-bottom:0}.RadTabStripBottom_CW .rtsLevel1 .rtsLink{border-top:0}.RadTabStripRight_CW .rtsLevel1 .rtsLink{border-left:0}.RadTabStripLeft_CW .rtsLevel1 .rtsLink{border-right:0}.RadTabStrip_CW .rtsSelected{color:#000000;background-color:#e6e6e6}.RadTabStrip_CW .rtsLevel1 .rtsSelected{border-color:#ffffff;color:#757575;background-color:#ffffff}.RadTabStrip_CW .rtsLevel1 .rtsSelected:hover{color:#000000}.RadTabStrip_CW .rtsDisabled,.RadTabStrip_CW .rtsDisabled:hover{color:#cccccc}.RadTabStrip_CW .rtsLevel1 .rtsDisabled,.RadTabStrip_CW .rtsLevel1 .rtsDisabled:hover{border-color:#9e0b0f;color:#e8979a}.RadTabStrip_CW .rtsLevel .rtsOut,.RadTabStrip_CW .rtsLevel .rtsIn,.RadTabStrip_CW .rtsLevel .rtsTxt{padding:0}.RadTabStrip_CW .rtsScroll{height:auto}.RadTabStrip_CW .rtsNextArrow,.RadTabStrip_CW .rtsPrevArrow,.RadTabStrip_CW .rtsPrevArrowDisabled,.RadTabStrip_CW .rtsNextArrowDisabled{background-image:url('TabStrip/TabStripStates.png')}.RadTabStrip_CW .rtsLevel .rtsNextArrow{background-position:-18px 0}.RadTabStrip_CW .rtsLevel .rtsPrevArrow{background-position:0 0}.RadTabStrip_CW .rtsLevel .rtsNextArrow:hover{background-position:-54px 0}.RadTabStrip_CW .rtsLevel .rtsPrevArrow:hover{background-position:-36px 0}.RadTabStrip_CW .rtsLevel .rtsPrevArrowDisabled,.RadTabStrip_CW .rtsLevel .rtsPrevArrowDisabled:hover{background-position:-72px 0}.RadTabStrip_CW .rtsLevel .rtsNextArrowDisabled,.RadTabStrip_CW .rtsLevel .rtsNextArrowDisabled:hover{background-position:-90px 0}.RadTabStripLeft_CW .rtsLevel .rtsNextArrow,.RadTabStripRight_CW .rtsLevel .rtsNextArrow{background-position:-18px -20px}.RadTabStripLeft_CW .rtsLevel .rtsPrevArrow,.RadTabStripRight_CW .rtsLevel .rtsPrevArrow{background-position:0 -20px}.RadTabStripLeft_CW .rtsLevel .rtsNextArrow:hover,.RadTabStripRight_CW .rtsLevel .rtsNextArrow:hover{background-position:-54px -20px}.RadTabStripLeft_CW .rtsLevel .rtsPrevArrow:hover,.RadTabStripRight_CW .rtsLevel .rtsPrevArrow:hover{background-position:-36px -20px}.RadTabStripLeft_CW .rtsLevel .rtsPrevArrowDisabled,.RadTabStripLeft_CW .rtsLevel .rtsPrevArrowDisabled:hover,.RadTabStripRight_CW .rtsLevel .rtsPrevArrowDisabled,.RadTabStripRight_CW .rtsLevel .rtsPrevArrowDisabled:hover{background-position:-72px -20px}.RadTabStripLeft_CW .rtsLevel .rtsNextArrowDisabled,.RadTabStripLeft_CW .rtsLevel .rtsNextArrowDisabled:hover,.RadTabStripRight_CW .rtsLevel .rtsNextArrowDisabled,.RadTabStripRight_CW .rtsLevel .rtsNextArrowDisabled:hover{background-position:-90px -20px}.RadTabStrip_CW_disabled .rtsTxt{-ms-filter:"alpha(opacity=60)";filter:alpha(opacity=60)}.RadTabStrip_CW_disabled .rtsLevel1 .rtsLink{color:#e8979a;cursor:default}.RadTabStrip_CW_disabled .rtsLevel1 .rtsLink:hover{border-color:transparent}.rtsDropClue_CW{background-image:url('Common/rtsDropClueSprite.png')}.rtsDropClueTop_CW{background-position:-10px -20px}.rtsDropClueRight_CW{background-position:-10px -30px}.rtsDropClueBottom_CW{background-position:-10px 0}.rtsDropClueLeft_CW{background-position:-10px -10px}
+
+ div.RadTabStrip_CW .rtsLink:hover {
+
+	border-left-style: solid;
+
+	border-left-width: 1px;
+
+	border-top-style: solid;
+
+	border-top-width: 1px;
+
+	border-color: rgb(255, 255, 255) rgb(255, 255, 255) transparent;
+
+	border-right-style: solid;
+
+	border-right-width: 1px;
+
+	color: rgb(34, 34, 34);
+
+	background-color: rgb(255, 255, 255);
+
+}
+

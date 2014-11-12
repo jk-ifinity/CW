@@ -1,0 +1,126 @@
+/*** old templates from 1600 site ***/
+
+/* template for featured article e.g. livery / charity sections */
+
+.feature h2 {
+    border-bottom: 2px solid #5E080F;
+    color: #9e0b0f;
+    margin-bottom: 7px;
+    font-size: 1.09em;
+    margin: 0 0 12px -10px;
+}
+
+.feature h2 span {
+    background: none repeat scroll 0 0 #9E0B0F; color: #fff;
+    display: block;
+    margin-bottom: 3px;
+    padding: 3px 10px;
+}
+
+/* template for news article */
+
+.news-article {
+	width: 100%; 
+    margin-bottom: 35px;
+}
+
+.news-article td {
+	vertical-align: top;
+}
+
+.news-article td.image {
+    width: 20%;
+}
+
+.news-article td.image img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.news-article td.image br {
+    display: none;
+}
+
+.news-article .h2 {
+    padding: 0 18px; 
+    height: 10px;
+    line-height: 1.25em;
+    font-size: 130%;
+}
+
+.news-article .h2 h2 {
+    font-size: smaller;
+    border-bottom: 3px solid #5e080f;
+    margin: 0 0 12px -10px; 
+    margin-top: 0; 
+}
+
+.news-article .h2 h2 span {
+    display: block;
+    background: #9e0b0f;
+    color: #f1dddd !important;
+    padding: 5px 12px 6px;
+    margin-bottom: 6px;
+}
+
+.news-article .summary, .news-article .read-more {
+	padding: 0 18px 0 18px;
+}
+
+.news-article .date { 
+    text-align: right; 
+}
+
+/* template for news article with wide column for longer text and differently styled heading */
+
+.news-article-wide {
+	width: 100%; /* font-size: 0.8125em; */
+}
+
+.news-article-wide td {
+	vertical-align: top;
+}
+
+.news-article-wide .h2-no-bg {
+	padding: 0 18px 0 8px; height: 10px;
+}
+
+.news-article-wide .summary, .news-article-wide .read-more {
+	padding: 0 18px 0 8px;
+}
+
+.news-article-wide .h2-no-bg h2 { font-size: 1.5em; color: #9E0B0F !important; text-decoration: underline; margin-top: 0 !important; border-bottom: 0;  }
+
+.news-article-wide .date { 
+    text-align: right; 
+}
+
+/* button styles */
+
+a.more {
+    background: url("images/bg-btn-small-grad.png") repeat-x scroll center top #C4AB79;
+    color: #FFFFFF !important;
+	text-decoration: none;
+    padding: 5px 30px 5px 7px;
+    position: relative;
+}
+a.more:hover {
+    color: #8D0004 !important;
+	text-decoration: underline;
+}
+a.more .linkArrow {
+    top: 10px;
+}
+a.more:hover .linkArrow {
+    background-position: -331px -17px;
+}
+
+.linkArrow {
+    background: url("images/sprite-main.png") repeat scroll -331px 0 transparent;
+    height: 7px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 4px;
+}

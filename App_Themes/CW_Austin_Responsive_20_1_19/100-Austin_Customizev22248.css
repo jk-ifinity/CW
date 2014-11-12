@@ -1,0 +1,376 @@
+/* template */
+
+#MainBody {
+    background: url(images/bg-body.png) repeat-x scroll center top #C8C8C8; /* body background image */
+}
+
+div#masterContentArea {
+    background: #fff; 
+    border-radius: 6px; 
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* main container element - apply white background and border-radius */
+}
+
+.container {
+    padding: 15px;
+}
+
+header#hd {
+    padding: 15px 0;
+}
+
+.footer {
+    border-top: 1px dotted #5b5b59;
+}
+
+/* typography */
+
+h1 {
+    border-bottom: 3px solid #5e080f;
+    margin: 0 0 12px -10px
+}
+
+h1 span {
+    display: block;
+    background: #9e0b0f; color: #f1dddd !important;
+    padding: 5px 12px 6px;
+    margin-bottom: 6px;
+}
+
+h2, .h2, div.PanelTitle { /* reset border bottom style set in 10-UltraWaveResponsive.css */
+    border-bottom: 0;
+}
+
+/* search button */
+
+.search-button {
+    color: #8d0004;
+    background-color: transparent;
+    border: 0;
+    padding: 0 5px;
+}
+
+/* primary menu styles copied from http://www.clothworkers.co.uk/CMSPages/GetCSS.aspx */
+
+/* primary menu bar */
+
+@media (min-width: 768px) {
+.RadMenu.rmResponsive {
+    position: relative;  
+    float: right;  display: inline;  clear: right;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0.7);
+    border-top: 1px solid #6d6045;
+    border-bottom: 1px solid #6d6045; 
+}
+
+.RadMenu.rmResponsive .rmRootGroup > .rmItem {
+    padding: 4px 0;
+}
+
+.RadMenu.rmResponsive .rmRootGroup > .rmItem > a.rmLink {
+    border-left: 1px dotted #444;
+}
+
+.RadMenu.rmResponsive .rmRootGroup > .rmItem:first-child > a.rmLink:nth-child(1) {
+    border-left: none;
+}
+
+/* home page */
+
+.banner {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+hgroup, .hgroup {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 5px 20px 35px; opacity: 0.9;
+}
+
+/* banners */
+
+.banner hgroup, .banner .hgroup {
+    background: url(http://www.clothworkers.co.uk/SiteFiles/images/css/bg-btn-big-grad.png) 50% 0% repeat-x rgb(62, 61, 63);
+    padding: 8px 18px;
+}
+
+.banner hgroup h2, .banner .hgroup h2 {
+    font-size: 1.6em;
+    color: #fff;
+    border: 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.banner hgroup p {
+    line-height: 1.4em;
+    font-size: 0.925em;
+    color: #f0e69f;
+}
+
+.banner td.image {
+    height: 280px;
+    overflow: hidden;
+    width: 470px !important;
+}
+
+td.image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.full-width-banner .content {
+    background: url("images/bg-btn-big-grad.png") repeat-x scroll center top #3E3D3F;
+    height: 244px;
+    padding: 18px;
+    /* position: absolute; */
+    right: 0;
+    top: 0;
+    /* width: 182px; */
+    vertical-align: top;
+}
+
+
+@media (max-width: 480px) {
+    .banner hgroup p {
+        display: none;
+    }
+}
+
+.imgWrap {
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+}
+
+.imgWrap img {
+    display: block;
+    margin: 0px auto;
+}
+
+/*.banner hgroup:hover {
+position: absolute;
+top: 0px;
+height: 100%;
+opacity: 0.8;
+}*/
+
+/* bug fix - no padding on empty cells */
+
+.rgNoRecords td div {
+    padding: 7px;
+}
+
+.banner:hover .btn-container {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+}
+
+.btn-container {
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: opacity .1s cubic-bezier(.694, .0482, .335, 1), background .1s cubic-bezier(.694, .0482, .335, 1);
+}
+
+a.link-btn {
+    font-size: 18px;
+    /*top: 50%;*/
+    margin-top: 30%;
+    background: url(http:www.clothworkers.co.uk/SiteFiles/images/css/bg-btn-small-grad.png) repeat-x top #c4ab79;
+    opacity: 0;
+    transition: opacity .3s cubic-bezier(.694, .0482, .335, 1), background .2s cubic-bezier(.694, .0482, .335, 1);
+    /* width: 100%; */
+    /* margin: 25px; */
+    border: 0;
+    color: #fff;
+    padding: 12px 30px 12px 20px;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+.banner:hover a.link-btn {
+    opacity: 1;
+}
+
+a.link-btn:hover {
+    text-decoration: none;
+}
+
+.button {height: 100%;
+width: 100%;
+text-align: center;
+/* left: 50%; */
+position: absolute;}
+
+.button > .link-btn > .linkArrow {
+    position: absolute;
+    right: 12px;
+    top: 22px;
+    width: 4px;
+    height: 7px;
+    background: url(http://www.clothworkers.co.uk/SiteFiles/images/css/sprite-main.png) -331px 0;
+}
+
+    .group {    
+        background: url(http://www.clothworkers.co.uk/SiteFiles/images/css/bg-btn-big-grad.png) 50% 0% repeat-x rgb(62, 61, 63);
+    }
+
+   .left {
+        float: left;
+        width: 43%;
+    }
+
+    .right {
+        float: right;
+        width: 57%;
+    }
+
+    .group hgroup {
+        padding: 18px; background: none; position: relative; opacity: 1;
+    }
+
+    .group hgroup h2 {
+        font-size: 1.8em;
+        color: #fff !important;
+        border: 0;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+     .group hgroup p {
+        color: #f0e69f;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .group:after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+
+    @media (max-width: 960px) {
+    
+    hgroup, .hgroup {font-size: smaller;} 
+
+    .right { height: 100%; }
+    }    
+
+    @media screen and (max-width: 780px) {
+        .group {
+            display: none;
+        }
+        /* .group {
+            background: none;
+        }
+        .left, .right {
+            float: none;
+            width: auto;
+        } */
+    }
+
+.RadMenu_MetroTouch {
+    font-family: Cambria, Georgia, serif !important;
+}
+
+/* misc */
+
+@media (max-width: 768px) {
+  .fadebg {
+    display: none;
+  }
+}
+
+.fadebg {
+    float: left;
+    width: 40px;
+    height: 35px;
+    background: rgb(173,173,173); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FkYWRhZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlN2U3ZTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  rgba(173,173,173,1) 0%, rgba(231,231,231,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(173,173,173,1)), color-stop(100%,rgba(231,231,231,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(173,173,173,1) 0%,rgba(231,231,231,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(173,173,173,1) 0%,rgba(231,231,231,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(173,173,173,1) 0%,rgba(231,231,231,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(173,173,173,1) 0%,rgba(231,231,231,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadad', endColorstr='#e7e7e7',GradientType=1 ); /* IE6-8 */
+    border-top: 1px solid #6d6045;
+    border-bottom: 1px solid #6d6045;
+}
+
+div#ctl00_TemplateBody_WebPartManager1_gwpciMemberSearchIQA_ciMemberSearchIQA_ResultsGrid_DataSourcePanel_Head {
+    display: none;
+}
+
+/* Profile */
+
+/* fix problem with non-wrapping text */
+
+.MyBiography .PanelFieldValue {
+    display: block;
+    width: 100%;
+}
+
+.MyBiography .PanelFieldValue span {
+    width: 100%;
+    display: block !important;
+    -ms-word-break: break-all;
+     word-break: break-all;
+     word-break: break-word;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+            hyphens: auto; 
+}
+
+/* WebFormZ custom styles */
+
+.LockPane div {
+    background-color: #9e0b0f !important; 
+    color: #fff;
+}
+
+#yui-main {
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.StandardPanel, .StandardPanel fieldset, .PanelColumn, .PanelHead, .PanelBody, .PanelColumn .PanelField, .StandardPanel .PanelField .PanelFieldValue, .PanelFieldValue {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.WFZ5NormalComboBoxRequired label, .WFZ5NormalTextFieldRequired label {
+    background-image: none !important;
+    margin-left: 1px;
+}
+
+.WFZ5NormalComboBoxRequired label:before, .WFZ5NormalTextFieldRequired label:before {
+    content: " * "; color: red;
+}
+
+.WFZ5NormalRadioButtonSetValue input[type=radio], 
+.WFZ5NormalCheckBoxSetValue input[type=checkbox] {
+    margin: 3px !important;
+}
+
+.CommandBar {
+	display: none;
+}
